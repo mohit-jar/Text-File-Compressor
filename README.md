@@ -1,13 +1,18 @@
-📂 Project Structure
+A simple C++ implementation of Huffman Coding for text compression.
 
-├── Huffman.cpp      # Implementation of Huffman coding
-├── Huffman.h        # Header file for Huffman class/functions
-├── main.cpp         # Main program entry point
-├── sample.txt       # Example input file
-└── README.md        # Project documentation
+## 📂 Project Structure
 
-Build
+├── Huffman.cpp # Implementation of Huffman coding
+├── Huffman.h # Header file for Huffman class/functions
+├── main.cpp # Main program entry point
+├── sample.txt # Example input file
+└── README.md # Project documentation
+
+
+## 🛠️ Build
+
+```bash
 g++ main.cpp Huffman.cpp -o huffman
 
-Run
+▶️ Run
 ./huffman sample.txt
